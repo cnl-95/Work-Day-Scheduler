@@ -1,0 +1,80 @@
+body {
+    Font-Family: 'Poppins', sans-serif;;
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: rgb(56, 56, 56);
+    border-left: opx solid #88898C;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: rgb(56, 56, 56);
+    border-radius: 0;
+    border-bottom: 5px solid #ccccff;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: rgb(56, 56, 56);
+    border-top: 1px dashed #88898C;
+  }
+  
+  .past {
+    background-color: #dedef5;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ac9eeb ;
+    color: white;
+  }
+  
+  .future {
+    background-color: #7d75d8;
+    color: white;
+  }
+  
+  .saveBtn {
+    border: 1px solid #88898C;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #c3b6ff;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+  }
+  
+  
